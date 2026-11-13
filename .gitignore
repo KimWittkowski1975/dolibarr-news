@@ -1,0 +1,8 @@
+*.bak
+*.backup*
+*.old
+*~
+test_*.php
+debug_*.php
+*.log
+.DS_Store

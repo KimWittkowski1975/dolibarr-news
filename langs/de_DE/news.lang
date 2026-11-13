@@ -1,0 +1,68 @@
+# Copyright (C) 2026 Kim Wittkowski <kim@wittkowski-it.de>
+# Module News - Deutsch
+
+ModuleNewsName = News
+ModuleNewsDesc = Kurze interne Nachrichten an Benutzer und Benutzergruppen, mit Lesestatus
+Permission501261 = Eigene News lesen
+Permission501262 = News erstellen und senden
+Permission501263 = News an alle Benutzer senden
+Permission501264 = Lesestatus aller News sehen und alle News zurückziehen
+Permission501265 = News löschen
+
+NewsMenuTitle = NEWS
+NewsMenuCreate = News erstellen
+NewsMenuSent = Gesendete
+NewsMenuReceived = Erhaltene
+NewsMenuAll = Alle News
+
+NewsCreate = News erstellen
+NewsTitle = Titel
+NewsContent = Text
+NewsRecipients = Empfänger
+NewsRecipientsPlaceholder = Benutzer oder Gruppen auswählen ...
+NewsToAll = An alle aktiven Benutzer senden
+NewsToAllShort = alle Benutzer
+NewsImportant = Wichtig
+NewsImportantHelp = Wichtige News stehen ungelesen ganz oben und erzeugen einen roten Hinweis.
+NewsSend = Senden
+NewsSent = News an %s Empfänger gesendet
+NewsFrom = Von
+NewsDirect = direkt
+NewsReachedVia = Erreicht über
+NewsReadOn = Gelesen am
+NewsReadCount = Gelesen
+NewsReadStatus = Lesestatus
+NewsUnread = ungelesen
+NewsOnlyUnread = nur ungelesene
+NewsStatusSent = gesendet
+NewsStatusWithdrawn = zurückgezogen
+NewsWithdraw = Zurückziehen
+NewsConfirmWithdraw = News zurückziehen? Sie verschwindet bei allen Empfängern, offene Popups werden entfernt.
+NewsWithdrawn = News zurückgezogen
+NewsConfirmDelete = News endgültig löschen? Leseliste und Agenda-Ereignisse werden ebenfalls gelöscht.
+NewsDeleted = News gelöscht
+NewsErrorTitleRequired = Bitte einen Titel eingeben.
+NewsErrorNoRecipient = Keine Empfänger: Bitte mindestens einen aktiven Benutzer oder eine Gruppe mit Mitgliedern auswählen.
+NewsErrorNotFound = Diese News existiert nicht mehr.
+
+NewsBannerOne = Du hast 1 neue News – jetzt lesen
+NewsBannerMany = Du hast %s neue News – jetzt lesen
+NewsBannerImportant = (wichtig)
+NewsPopupLabel = News von %s: %s
+NewsPopupLabelImportant = WICHTIG – News von %s: %s
+
+NewsSetup = Einrichtung News
+NewsAbout = Über
+NewsRequirements = Voraussetzungen für das Popup
+NewsRequirement = Voraussetzung
+NewsReqHint = Hinweis
+NewsReqOk = OK
+NewsReqMissing = fehlt
+NewsReqAgendaModule = Modul Agenda aktiv
+NewsReqAgendaModuleHint = Das Popup ist ein Agenda-Ereignis mit Erinnerung.
+NewsReqBrowserReminder = Browser-Erinnerungen der Agenda aktiv
+NewsReqBrowserReminderHint = Einrichtung > Module > Agenda > Erinnerungen: „Erinnerung im Browser“ einschalten.
+NewsReqEditor = WYSIWYG-Editor (FCKEditor) aktiv
+NewsReqEditorHint = Ohne Editor wird der Text als einfaches Textfeld erfasst.
+NEWS_POPUP_ENABLED = Gelbes Popup über ein Agenda-Ereignis
+NEWS_POPUP_ENABLEDTooltip = Legt pro Empfänger ein Agenda-Ereignis vom Typ „News“ mit Browser-Erinnerung an. Das Popup erscheint in der Entität des Empfängers. Das Banner erscheint unabhängig davon immer.

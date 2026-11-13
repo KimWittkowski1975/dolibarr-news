@@ -1,0 +1,68 @@
+# Copyright (C) 2026 Kim Wittkowski <kim@wittkowski-it.de>
+# Module News - English
+
+ModuleNewsName = News
+ModuleNewsDesc = Short internal news to users and user groups, with read status
+Permission501261 = Read news addressed to me
+Permission501262 = Create and send news
+Permission501263 = Send news to all users
+Permission501264 = See read status of all news and withdraw any news
+Permission501265 = Delete news
+
+NewsMenuTitle = NEWS
+NewsMenuCreate = Create news
+NewsMenuSent = Sent
+NewsMenuReceived = Received
+NewsMenuAll = All news
+
+NewsCreate = Create news
+NewsTitle = Title
+NewsContent = Text
+NewsRecipients = Recipients
+NewsRecipientsPlaceholder = Select users or groups ...
+NewsToAll = Send to all active users
+NewsToAllShort = all users
+NewsImportant = Important
+NewsImportantHelp = Important news stay on top while unread and show a red banner.
+NewsSend = Send
+NewsSent = News sent to %s recipient(s)
+NewsFrom = From
+NewsDirect = direct
+NewsReachedVia = Reached via
+NewsReadOn = Read on
+NewsReadCount = Read
+NewsReadStatus = Read status
+NewsUnread = unread
+NewsOnlyUnread = unread only
+NewsStatusSent = sent
+NewsStatusWithdrawn = withdrawn
+NewsWithdraw = Withdraw
+NewsConfirmWithdraw = Withdraw this news? It disappears for all recipients, pending popups are removed.
+NewsWithdrawn = News withdrawn
+NewsConfirmDelete = Delete this news for good? Read list and agenda events are deleted as well.
+NewsDeleted = News deleted
+NewsErrorTitleRequired = Please enter a title.
+NewsErrorNoRecipient = No recipient: select at least one active user or a group with members.
+NewsErrorNotFound = This news does not exist anymore.
+
+NewsBannerOne = You have 1 new news item – read now
+NewsBannerMany = You have %s new news items – read now
+NewsBannerImportant = (important)
+NewsPopupLabel = News from %s: %s
+NewsPopupLabelImportant = IMPORTANT – news from %s: %s
+
+NewsSetup = News setup
+NewsAbout = About
+NewsRequirements = Requirements for the popup
+NewsRequirement = Requirement
+NewsReqHint = Hint
+NewsReqOk = OK
+NewsReqMissing = missing
+NewsReqAgendaModule = Module Agenda enabled
+NewsReqAgendaModuleHint = The popup is an agenda event with a reminder.
+NewsReqBrowserReminder = Agenda browser reminders enabled
+NewsReqBrowserReminderHint = Setup > Modules > Agenda > Reminders: enable "reminder in browser".
+NewsReqEditor = WYSIWYG editor (FCKEditor) enabled
+NewsReqEditorHint = Without the editor the text is entered as plain text.
+NEWS_POPUP_ENABLED = Yellow popup via an agenda event
+NEWS_POPUP_ENABLEDTooltip = Creates one agenda event of type "News" with a browser reminder per recipient. The popup appears in the recipient's entity. The banner is always shown regardless.
