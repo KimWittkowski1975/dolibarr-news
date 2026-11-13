@@ -40,3 +40,26 @@ Superadmins: 1). Arbeitet ein Empfänger in einer anderen Entität, sieht er das
 ## Lizenz
 
 GPL-3.0-or-later – Kim Wittkowski <kim@wittkowski-it.de>
+
+---
+
+## English
+
+**News** is a Dolibarr module for short internal messages to users and user groups, with read tracking.
+
+- Left menu under **Home → NEWS**: create, sent, received, all news (with permission)
+- Recipients: individual users, user groups, optionally all active users (separate permission).
+  Groups are resolved into a fixed recipient list when the news is sent.
+- Opening a news item marks it as read
+- Banner "You have X new news" on every page (red for important news) and an unread counter in the menu
+- Optional yellow popup via an agenda event (type `AC_NEWS`) with browser reminder, can be switched off in setup
+- Withdraw (author or "read status of all news" permission) and delete (own permission)
+- Works across entities (MultiCompany): news are addressed to people, not to a company
+
+**Requirements:** Dolibarr 22+. For the popup: Agenda module and browser reminders (`AGENDA_REMINDER_BROWSER`).
+
+**Installation:** unzip into `htdocs/custom/news` (the folder must be named `news`), then activate the module under Setup → Modules.
+
+**Languages:** German, English.
+
+**License:** GPL-3.0-or-later
